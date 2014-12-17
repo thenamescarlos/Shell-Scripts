@@ -1,0 +1,5 @@
+#So far only written to work for current logged in user.
+#see http://derflounder.wordpress.com/2013/08/16/setting-new-window-and-new-tab-behavior-in-safari/
+
+#defaults write com.apple.Safari HomePage ''
+#defaults write com.apple.Safari NewWindowBehavior -int 0 #List options...
