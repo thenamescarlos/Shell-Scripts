@@ -44,7 +44,7 @@ main(){
     noofperiod=7
     
     # Get OSX Computer name
-    #computername="$(scutil --get ComputerName)"
+    computername="$(scutil --get ComputerName)"
     # Should extract last three digits
     computerno="$(echo $computername | grep -E '[0-9]{3}' -o | tail -n 1)"
     
