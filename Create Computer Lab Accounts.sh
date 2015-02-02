@@ -52,8 +52,7 @@ main(){
     if [[ -z "$computerno" ]]; then
         echo "FAILED: Accounts not created."
     else
-        echo $computerno
-        #createaccount computerno
+        createaccount computerno
         
         #https://github.com/rtrouton/rtrouton_scripts/tree/master/rtrouton_scripts/disable_apple_icloud_and_diagnostic_pop_ups
         osvers=$(sw_vers -productVersion | awk -F. '{print $2}')
